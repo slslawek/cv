@@ -1,0 +1,50 @@
+<div class="page">
+  <div class="container">
+    <div class="wrapper">
+      <div class="left">
+        <ng-container *ngIf="experience">
+          <h1>{{ experience.title }}</h1>
+          <div class="item" *ngFor="let item of experience.content; let i = index">
+            <div class="business">
+              <p class="business_name">{{item.business}}</p>
+              <p class="business_date">{{item.start}} - {{item.stop}}</p>
+            </div>
+            <div class="description">
+              <ng-container *ngFor="let text of item.description">
+                <p class="description_item" *ngIf="!text.sublevel">{{text}}</p>
+                <ng-container *ngIf="text.sublevel">
+                  <p class="description_item level1">{{text.item}}</p>
+                    <ul *ngIf="text.sublevel">
+                    <li class="description_item level2" *ngFor="let text1 of text.sublevel">{{text1.item}}
+                    <ul *ngIf="text1.sublevel">
+                      <li class="description_item level3"  *ngFor="let text2 of text1.sublevel">{{text2.item}}</li>
+                    </ul>
+                    </li>
+                </ul>
+                </ng-container>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+      <div class="right">
+        <div class="about">
+          <ng-container *ngIf="about">
+            <h1>{{ about.title }}</h1>
+            <div [innerHTML]="about.content"></div>
+          </ng-container>
+          <div class="skills">
+            <ng-container *ngIf="skills">
+              <h1>{{ skills.title }}</h1>
+            </ng-container>
+          </div>
+          <div class="hobby">
+            <ng-container *ngIf="about">
+              <h1>{{ hobby.title }}</h1>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

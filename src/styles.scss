@@ -1,0 +1,58 @@
+$title-font: Raleway, sans-serif;
+$text-font:Open-Sans, sans-serif;
+$container-width: 75%;
+
+@mixin float-left($width: 100%) {
+  float: left;
+  width: $width;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% $text-font;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: $title-font;
+  border-bottom: 2px solid #000;
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+.wrapper {
+  @include float-left;
+  background: #fff;
+}
+
+.left {
+  @include float-left($width: 70%);
+  padding: 10px 50px;
+  padding-right: 25px;
+}
+
+.right {
+  @include float-left($width: 30%);
+  padding: 10px 50px;
+  padding-left: 25px;
+}
+
+.item {
+  @include float-left;
+}
+
+.business {
+  @include float-left($width: 20%);
+}
+
+.description {
+  @include float-left($width: 80%);
+}

@@ -1,0 +1,92 @@
+{
+  "about": {
+  "title": "O mnie",
+  "content": "<p>Pierwszy program napisałem w basicu na ZX Spectrum, a swoją pierwszą stronę testowałem na przeglądarkach Mosaic i Netscape Navigator :)</p><p>Od tamtej pory staram się nadążać za rozwojem technologii webowych i ich okolic.</p><p>Chyba nie spotkałem się jeszcze z problemem, którego nie udało mi się (prędzej czy później) rozwiązać, bo nie odpuszczam dopóki „nie zadziała”.</p><p>Nie ukrywam, że bardzo często pomaga mi  stackoverflow.com</p>"
+  },
+  "experience":{
+  "title": "Doświadczenie",
+  "content":[
+      {
+        "business":"Grupa Solidex",
+        "start":1994,
+        "stop":2006,
+        "description":[
+          "Stworzenie, administracja i rozbudowa intranetu Grupy",
+          "Projektowanie, skład i przygotowanie do druku materiałów marketingowych Grupy",
+          "Skład i przygotowanie do druku miesięcznika branżowego",
+          "Projektowanie, wdrażanie i administracja serwisami internetowymi Grupy"
+        ]
+      },{
+        "business": "RSF sp. z o.o.",
+        "start":2006,
+        "stop":2007,
+        "description":[
+          "Projekt i implementacja aplikacji dedykowanej dla biura nieruchomości",
+          "Utrzymanie serwisów internetowych firmy",
+          "Budowa systemu identyfikacji wizualnej oraz koncepcji materiałów graficznych firmy"
+        ]
+      },{
+        "business":"ESEL",
+        "start":2007,
+        "stop":null,
+        "description":[
+          {
+            "item":"Freelancer. Współpraca m.in. z:",
+            "sublevel":[
+              {
+                "item":"EyeTom Sp. z o.o.",
+                "sublevel":[
+                  {"item":"System kasowy dla IKEA"},
+                  {"item":"System wspomagający sprzedaż dla producenta mebli"},
+                  {"item":"System ewidencji wizyt dla IKEA"},
+                  {"item":"Projekt i wykonanie serwisu internetowego firmy"}
+                ]
+              },{
+                "item":"Thermaleo PLUS",
+                "sublevel":[
+                  {"item":"System telewizji hotelowej"},
+                  {"item":"Projekt i wykonanie serwisów internetowych obiektów Grupy"}
+                ]
+              },{
+                "item":"Hotel SPA Dwór Kombornia",
+                "sublevel":[
+                  {"item":"Intranet"},
+                  {"item":"Projekt i wykonanie serwisu internetowego"}
+                ]
+              },{
+                "item":"Uzdrowisko Szczawnica",
+                "sublevel":[
+                  {"item":"Projekt i wykonanie serwisu internetowego"}
+                ]
+              },{
+                "item":"Hotel Dwór Sieraków",
+                "sublevel":[
+                  {"item":"Projekt i wykonanie serwisu internetowego hotelu"},
+                  {"item":"Projekt i wykonanie serwisu produktowego Wódka Dwór Sieraków"}
+                ]
+              }
+          ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills":{
+    "title":"Umiejętności",
+    "content":[
+      {"item":"Angular","level":7},
+      {"item":"AngularJS","level":7},
+      {"item":"PHP","level":5},
+      {"item":"HTML5","level":7},
+      {"item":"CSS3","level":7},
+      {"item":"MySQL","level":5},
+      {"item":"jQuery","level":5},
+      {"item":"WordPress","level":4},
+      {"item":"Joomla","level":8}
+    ]
+  },
+  "hobby":{
+    "title":"Hobby",
+    "content":["rower","góry"]
+  }
+}
