@@ -1,11 +1,4 @@
 {
-  "header": {
-    "name":"Sławomir Łucyszyn",
-    "address":"Kraków",
-    "phone":"+48 669 979 870",
-    "email":"slawek@lucyszyn.pl",
-    "photo":"sl.jpg"
-  },
   "about": {
   "title": "O mnie",
   "content": "<p>Pierwszy program napisałem w basicu na ZX Spectrum, a swoją pierwszą stronę testowałem na przeglądarkach Mosaic i Netscape Navigator :)</p><p>Od tamtej pory staram się nadążać za rozwojem technologii webowych i ich okolic.</p><p>Chyba nie spotkałem się jeszcze z problemem, którego nie udało mi się (prędzej czy później) rozwiązać, bo nie odpuszczam dopóki „nie zadziała”.</p><p>Nie ukrywam, że bardzo często pomaga mi  stackoverflow.com</p>"
@@ -95,6 +88,5 @@
   "hobby":{
     "title":"Hobby",
     "content":["rower","góry"]
-  },
-  "footer":"Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb rekrutacyjnych i marketingowych, zgodnie z ustawą o ochronie danych osobowych z dnia 29.08.1997 Dz. U. Nr 133 poz. 883."
+  }
 }

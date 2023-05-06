@@ -1,3 +1,11 @@
+export interface Header {
+  "name":string,
+  "address":string,
+  "phone":string,
+  "email":string,
+  "photo":string
+}
+
 export interface About {
 title?:string,
 content?:string
