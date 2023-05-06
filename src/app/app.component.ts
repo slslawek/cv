@@ -25,6 +25,8 @@ export class AppComponent {
   hobby: Hobby = {};
   footer: string = "";
 
+
+
   constructor(
     private Service: Service
   ){ }
@@ -41,7 +43,7 @@ export class AppComponent {
         this.about = data.about;
         this.experience = data.experience;
         if(this.experience.content){
-        this.experience.content.sort((a:any,b:any) => b.start - a.start);
+        this.experience.content.sort((a,b) => (b.start && a.start)?b.start - a.start:0);
         }
         this.skills = data.skills;
         this.hobby = data.hobby;

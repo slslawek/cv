@@ -15,7 +15,7 @@ export class Service extends BehaviorSubject<any> {
     })
   };
 
-  getData(dataUrl:any): Observable<any> {
+  getData(dataUrl:string): Observable<any> {
     return this.http.get(dataUrl, this.httpOptions);
   }
 
