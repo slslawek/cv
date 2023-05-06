@@ -119,6 +119,9 @@ strong {
 .header {
   @include header;
   padding: 25px 150px;
+  @include viewport(mobile) {
+    padding: 25px;
+  }
 }
 
 .footer {
@@ -144,6 +147,10 @@ strong {
   .info {
     @include float-left($width: calc(100% - 200px));
     padding-left: 50px;
+    @include viewport(mobile) {
+      min-width: 390px;
+      padding-left: 30px;
+    }
   }
 
   p {
@@ -155,6 +162,9 @@ strong {
     font-family: $title-font;
     font-size: 250%;
     text-transform: uppercase;
+    @include viewport(mobile) {
+      font-size: 200%;
+    }
   }
 
   .address:before {
